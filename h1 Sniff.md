@@ -21,7 +21,8 @@ Google avuksi: "miten katkaisen virrat virtuaalikoneesta?"
 
 ## c) Wireshark. Asenna ohjelman ja nappaa liikennettä.   
 
-<https://github.com/VaMaija/NetworkAttacksAndReconnaissanceHH2025/blob/0b2c3fc5494c7cce124cffb48445293a94891463/thumbnail_wireshark%20versio.png/> 
+<img width="368" alt="thumbnail_wireshark versio" src="https://github.com/user-attachments/assets/bfdcaafc-80af-4347-98c0-9b1b3f47fe1c" />
+  
 **$ sudo apt-get install wireshark  
 $ newgrp wireshark  
 $ wireshark >> käynnistää ohjelman**  
