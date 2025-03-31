@@ -26,9 +26,44 @@ $ newgrp wireshark
 $ wireshark >> käynnistää ohjelman**  
 
 Piti avata selain, jotta paketteja näkyi.   
-<img width="383" alt="kaappausta" src="https://github.com/user-attachments/assets/caf16bc3-40c2-479b-90b4-3db384c1eb7d" />
+<img width="383" alt="kaappausta" src="https://github.com/user-attachments/assets/caf16bc3-40c2-479b-90b4-3db384c1eb7d" />  
+
 
 ## d) Oikeesti TCP/IP osoita neljä verkkokerrosta yhdestä paketista.  
+
+<img width="875" alt="koko frame" src="https://github.com/user-attachments/assets/6b8651ad-1fe8-4bdd-9cb9-66aa5d742585" />   
+
+**Koko frame 6799**
+
+<img width="904" alt="ethernet source destination" src="https://github.com/user-attachments/assets/d455fe48-8f88-4378-b9db-2130474b428e" />   
+
+**"Hei! Olen laite jonka Mac-osoite on 52:55:0a:00:02:02, haluaisin yhteyden naapurin mac-osoitteeseen 08:00:27:c7:ab:94"** 
+
+<img width="888" alt="network layer ip-osoite " src="https://github.com/user-attachments/assets/8dff22f7-6e80-4216-8a0d-e36d5e56cecc" />  
+
+**"Terve Mac 52:55:0a:00:02:02, haluamasi naapuri löytyy IPv4 osoitteesta 10.0.2.15"**
+
+<img width="916" alt="tcp portit" src="https://github.com/user-attachments/assets/5674bcbe-aee6-4da9-bd53-f45fc3ae3c54" />  
+
+**"Asia kunnossa, täältä tulee portista 443 porttiin 60928 dataa, kuittaatko kun kaikki paketit on perillä. Lähetyksen pituus on 1128 tavua"**  
+
+<img width="886" alt="datat siirretään applicationissa" src="https://github.com/user-attachments/assets/6e452e6f-24a9-4cbd-a59d-b9218eac0a97" />  
+
+**"Olen vastaanottanut 1128 tavua"**   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -54,3 +89,4 @@ Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-
 Kali Linux https://www.kali.org/get-kali/#kali-live  
 Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/) luettu 31.3.2025  
 Gianglex [h1 Sniff](https://github.com/gianglex/Courses/blob/6e74794c2e27752698f9bff0455a927843d9f934/Verkkoon-Tunkeutuminen-ja-Tiedustelu/h1-sniff.md#f-mit%C3%A4-selainta-k%C3%A4ytt%C3%A4j%C3%A4-k%C3%A4ytt%C3%A4%C3%A4) luettu 31.3.2025  
+madbackets.com [TCP Sequence and Acknowledgement Numbers Explained](https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/) luettu 31.3.2025   
