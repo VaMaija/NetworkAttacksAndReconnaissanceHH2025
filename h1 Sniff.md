@@ -24,6 +24,6 @@
 
 
 LÄHTEET: 
-Karvinen 2025: [läksysivu](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt) luettu 30.3.2025
-Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/) luettu 30.3.2025  
-Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/) luettu 31.3.2025
+Karvinen 2025: [läksysivu](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt) luettu 30.3.2025  
+Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/) luettu 30.3.2025   
+Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/) luettu 31.3.2025  
