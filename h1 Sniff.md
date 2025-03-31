@@ -15,6 +15,8 @@ Asensin Kalin, sillä sitä en ole vielä kokeillut. Kali linux 2025.1a-live-amd
 
 ## b) Ei voi kalastaa. Katkaisen virtuaalikonen yhteys nettiin.  
 Google avuksi: "miten katkaisen virrat virtuaalikoneesta?"  
+<img width="548" alt="thumbnail_kaapelin irrotus" src="https://github.com/user-attachments/assets/b7bc9d4f-84e6-4112-9527-7e7ac9aba706" />
+
 
 
 ## c) Wireshark. Asenna ohjelman ja nappaa liikennettä.   
