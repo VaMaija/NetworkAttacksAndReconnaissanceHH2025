@@ -1,12 +1,24 @@
 ## x) Lue ja tiivistä.  
    Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/)   
+Wireshark on tietoliikenteen kaistelija ja analysointityökalu.   
+Wiresharkin asennus onnistuu komennolla **$ sudo apt-get install wireshark**, jonka jälkeen sallitaan muidenkin kuin superusereiden wiresharkin käyttö.  
+Wiresharkin käyttäjä tulee lisätä porukkaan komennolla **$ sudo adduser _nimi_ wireshark**  
+Komennolla **$newgrp wireshark** luodaan shell-komento wireshark, joka avaa ryhmän jäsenille graafisen käyttöliittymän ohjelmalle
+
+   
    Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/)    
 
-## a) Linux. Asena Debian tai Kali virtuaalikoneeseen.   
+## a) Linux. Asena Debian tai Kali virtuaalikoneeseen.
+Asensin Kalin, sillä sitä en ole vielä kokeillut. Kali linux 2025.1a-live-amd64.iso.torrent osoitteesta https://www.kali.org/get-kali/#kali-live  
 
 ## b) Ei voi kalastaa. Katkaisen virtuaalikonen yhteys nettiin.  
 
 ## c) Wireshark. Asenna ohjelman ja nappaa liikennettä.   
+
+**$ sudo apt-get install wireshark  
+$ newgrp wireshark  
+$ wireshark >> käynnistää ohjelman**  
+
 
 ## d) Oikeesti TCP/IP osoita neljä verkkokerrosta yhdestä paketista.  
 
@@ -25,5 +37,6 @@
 
 LÄHTEET: 
 Karvinen 2025: [läksysivu](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/#laksyt) luettu 30.3.2025  
-Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/) luettu 30.3.2025   
+Karvinen 2025: [Wireshark - Getting Started](https://terokarvinen.com/wireshark-getting-started/) luettu 30.3.2025  
+Kali Linux https://www.kali.org/get-kali/#kali-live  
 Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/) luettu 31.3.2025  
