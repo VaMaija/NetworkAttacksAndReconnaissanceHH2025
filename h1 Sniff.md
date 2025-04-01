@@ -60,10 +60,16 @@ frameja on 283 ja paketin kaappaamiseen on kulunut aikaa n. 7,5 sekuntia
 
 ## f) Mitä selainta käyttäjä käyttää.  (vapaaehtoinen tehtävä) 
 
-En tiedä miten tämän selvittäisi. Giangin step-by-step -ohjeesta en ymmärtänyt juurikaan mitään.  😅:    
+En tiedä miten tämän selvittäisi. Giangin step-by-step -ohjeesta en ymmärtänyt juurikaan mitään.  😅    
 
 ## g) Minkä merkkinen verkkokortti käyttäjällä on?  
 
+![Mac](https://github.com/user-attachments/assets/059f8f82-4727-4d4f-b22a-1ad46c7e027a)   
+
+Otin ensimmäisestä framesta Ethernet sourcen MAC-osoitteen ja syötin sen verkkohakuun [https://mac.lc/#search](https://mac.lc/address/52:54:00:2f:e1:e5)   
+
+![mac haku online](https://github.com/user-attachments/assets/d68aefdd-b240-4803-bc18-ace670ddbc6c)  
+  
 ## h) Millä webbipalvelimella käyttäjä on surffannut.
 
 ![Millä webbipalvelimilla käyttäjä on surffannut](https://github.com/user-attachments/assets/d8b26c05-1121-4f43-a759-4949bb313017)  
@@ -82,3 +88,4 @@ Kali Linux https://www.kali.org/get-kali/#kali-live
 Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/) luettu 31.3.2025  
 Gianglex [h1 Sniff](https://github.com/gianglex/Courses/blob/6e74794c2e27752698f9bff0455a927843d9f934/Verkkoon-Tunkeutuminen-ja-Tiedustelu/h1-sniff.md#f-mit%C3%A4-selainta-k%C3%A4ytt%C3%A4j%C3%A4-k%C3%A4ytt%C3%A4%C3%A4) luettu 31.3.2025  
 madbackets.com [TCP Sequence and Acknowledgement Numbers Explained](https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/) luettu 31.3.2025   
+MACin perusteella valmistaja [https://mac.lc/#search](https://mac.lc/address/52:54:00:2f:e1:e5)  
