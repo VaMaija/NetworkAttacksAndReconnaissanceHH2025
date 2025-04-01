@@ -49,7 +49,7 @@ Piti avata selain, jotta paketteja näkyi.
 
 <img width="886" alt="datat siirretään applicationissa" src="https://github.com/user-attachments/assets/6e452e6f-24a9-4cbd-a59d-b9218eac0a97" />  
 
-**"Olen vastaanottanut 1128 tavua"**   
+**vastaanotto + "Olen vastaanottanut 1128 tavua"**   
 
 
 
