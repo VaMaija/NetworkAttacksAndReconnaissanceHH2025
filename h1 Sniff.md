@@ -82,12 +82,12 @@ Avasin taustalle youtuben videon pyörimään, koska halusin nähdä UDP-liikenn
 
 <img width="957" alt="oma liikenne" src="https://github.com/user-attachments/assets/6d6469d5-668c-4d1e-8e44-d2856b648d49" />  
 
-Paketit 1-20 ovat liikkuneet ensimmäisen sadasosasekunnin aikana UDP-protokollalla kohdeosoitteesta 173.194.18.167 (Googlen ip-avaruus) 
-Ethernet II kerroksessa näkyy source SCR mac-osoitteena 08:00:27:c7:ab:94 (PCS Systemtechnik GmbH), joka nopealla googlettelulla näytti olevan Virtualboxin ethernetin MACin haltija. 
-IPv4 lähde on 10.0.2.15 eli sisäinen ip-osoite ja kohde 173.194.18.168 (googlen ip-avaruus)  
-UDP protokollan lähdeportti on 443 ja kohdeportti 55313  yhden framen datan määrä on 1357 tavua  
+Paketit 1-20 ovat liikkuneet ensimmäisen sadasosasekunnin aikana UDP-protokollalla kohdeosoitteesta 173.194.18.167 (Googlen ip-avaruus)   
+Ethernet II kerroksessa näkyy source SCR mac-osoitteena 08:00:27:c7:ab:94 (PCS Systemtechnik GmbH), joka nopealla googlettelulla näytti olevan Virtualboxin ethernetin MACin haltija.   
+IPv4 lähde on 10.0.2.15 eli sisäinen ip-osoite ja kohde 173.194.18.168 (googlen ip-avaruus)    
+UDP protokollan lähdeportti on 443 ja kohdeportti 55313  yhden framen datan määrä on 1357 tavua    
 
-Frameja on pystyi nappaamaan kymmenesosasekunnissa 230 kpl, joten manuaalinen analysointi veisi liikaa aikaa.  
+Frameja on pystyi nappaamaan kymmenesosasekunnissa 230 kpl, joten manuaalinen analysointi veisi liikaa aikaa.    
 
 
 
