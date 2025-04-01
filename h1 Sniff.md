@@ -53,30 +53,22 @@ Piti avata selain, jotta paketteja näkyi.
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## e) Mitä tuli surffattua? Avaa surfing-secure-pcap ja kuvaile kaappausta. 
+Tästä paketista en vielä tällä opetuksen määrällä osaa sanoa juuri mitään.  
+En ole aiemmin käyttänyt wiresharkia.   
+frameja on 283 ja paketin kaappaamiseen on kulunut aikaa n. 7,5 sekuntia  
 
+## f) Mitä selainta käyttäjä käyttää.  (vapaaehtoinen tehtävä) 
 
-## f) Mitä selainta käyttäjä käyttää.  (vapaaehtoinen tehtävä)   
+En tiedä miten tämän selvittäisi. Giangin step-by-step -ohjeesta en ymmärtänyt juurikaan mitään.  😅:    
 
 ## g) Minkä merkkinen verkkokortti käyttäjällä on?  
 
-## h) Millä webbipalvelimella käyttäjä on surffannut. TLS salaus  
+## h) Millä webbipalvelimella käyttäjä on surffannut.
+
+![Millä webbipalvelimilla käyttäjä on surffannut](https://github.com/user-attachments/assets/d8b26c05-1121-4f43-a759-4949bb313017)  
+
+Olisiko protokollan kohdentaminen DNS tietoihin tähän kysymykseen oikea vastaus?   
 
 ## i) Analyysi omasta liikenteestä. Analysoi ja selitä. 
 
