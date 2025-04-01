@@ -87,7 +87,10 @@ Ethernet II kerroksessa näkyy source SCR mac-osoitteena 08:00:27:c7:ab:94 (PCS 
 IPv4 lähde on 10.0.2.15 eli sisäinen ip-osoite ja kohde 173.194.18.168 (googlen ip-avaruus)  
 UDP protokollan lähdeportti on 443 ja kohdeportti 55313  yhden framen datan määrä on 1357 tavua  
 
-Frameja on pystyi nappaamaan kymmenesosasekunnissa 230 kpl, joten manuaalinen analysointi veisi liikaa aikaa.   
+Frameja on pystyi nappaamaan kymmenesosasekunnissa 230 kpl, joten manuaalinen analysointi veisi liikaa aikaa.  
+
+
+
 
 
 
@@ -101,4 +104,4 @@ Kali Linux https://www.kali.org/get-kali/#kali-live
 Karvinen 2025: [Network Interface Names on Linux](https://terokarvinen.com/network-interface-linux/) luettu 31.3.2025  
 Gianglex [h1 Sniff](https://github.com/gianglex/Courses/blob/6e74794c2e27752698f9bff0455a927843d9f934/Verkkoon-Tunkeutuminen-ja-Tiedustelu/h1-sniff.md#f-mit%C3%A4-selainta-k%C3%A4ytt%C3%A4j%C3%A4-k%C3%A4ytt%C3%A4%C3%A4) luettu 31.3.2025  
 madbackets.com [TCP Sequence and Acknowledgement Numbers Explained](https://madpackets.com/2018/04/25/tcp-sequence-and-acknowledgement-numbers-explained/) luettu 31.3.2025   
-MACin perusteella valmistaja [https://mac.lc/#search](https://mac.lc/address/52:54:00:2f:e1:e5)  
+MACin perusteella valmistaja [https://mac.lc/#search](https://mac.lc/address/52:54:00:2f:e1:e5) testattu 1.4.2025  
