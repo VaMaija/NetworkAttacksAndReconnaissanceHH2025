@@ -113,10 +113,11 @@ Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds
 
   En saanut logituksia näkymään tai sitten vaan etsin ihan väärästä paikasta.  
 ## e)  Wire sharking  
-Kaappasim nmapituksen aikaista liikennettä, mutta en koska wireshark on uusi työkalu käytössni, niin en osannut etsiä nmap tai NMAP tai NSE -tietoja kaappauksesta.  
-
+Kaappasim nmapituksen aikaista liikennettä, mutta en koska wireshark on uusi työkalu käytössöni, niin en osannut etsiä nmap tai NMAP tai NSE -tietoja kaappauksesta.  
+yritin myös vinkeistä löytyvää **Dislay filter: frame contains "nmap"** mutta ei onnistunut. 
 ## f)  
 jaahas. 6 tuntia myöhemmin on aika antaa periksi. Koska en tiedä mitä on olen todellisuudessa tekemässä... 
+En saa edellisiä kohtia onnistumaan.  
 
  
  
