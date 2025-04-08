@@ -104,9 +104,16 @@ Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds
            Raw packets sent: 13 (1.712KB) | Rcvd: 24 (2.700KB) **//Analysoinnissa on käytetty apuna chatGPT **  
 
 
-## c) 
+## c) Skriptit  
 <img width="451" alt="Scripts" src="https://github.com/user-attachments/assets/22221592-3ea5-405d-adb5-b76faca8bb97" />  
-Script -luettelo löytyi $ cd /usr/
+
+## d) Jäljet lokissa    
+
+<img width="368" alt="logitukset hukassa" src="https://github.com/user-attachments/assets/cd90173f-7397-4556-8810-00db33ebdd0e" />  
+
+  En saanut logituksia näkymään tai sitten vaan etsin ihan väärästä paikasta.  
+## e)  
+
 
  
  
