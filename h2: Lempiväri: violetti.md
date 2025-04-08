@@ -37,6 +37,73 @@ Network Distance: 0 hops   **// Skannaus on tapahtunut paikallisessa verkossa ei
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
 Nmap done: 1 IP address (1 host up) scanned in 2.14 seconds // **Skannaukseen kulunut aika.**  
 
+┌──(maija㉿kaliMaija)-[~]  
+└─$ sudo nmap -T4 -vv -A -p 80 localhost  //skannaa superuserina -T4 (Tehokkaasti) -vv (näyttää tiedot yksityiskohtaisesti skannauksen aikana) -A (aggressiivinen skannaus, tarkastaa mm verkon reitin -p (portti)  
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-08 23:46 EEST  
+NSE: Loaded 157 scripts for scanning.  **// NSE valmiita työkaluja ladattu 157 kpl**  
+NSE: Script Pre-scanning.  
+NSE: Starting runlevel 1 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+NSE: Starting runlevel 2 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+NSE: Starting runlevel 3 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+Warning: Hostname localhost resolves to 2 IPs. Using 127.0.0.1.  
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers  
+Initiating SYN Stealth Scan at 23:46  
+Scanning localhost (127.0.0.1) [1 port]  
+Completed SYN Stealth Scan at 23:46, 0.03s elapsed (1 total ports)  
+Initiating Service scan at 23:46  
+Initiating OS detection (try #1) against localhost (127.0.0.1)  
+Retrying OS detection (try #2) against localhost (127.0.0.1)  
+NSE: Script scanning 127.0.0.1.  
+NSE: Starting runlevel 1 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.01s elapsed  
+NSE: Starting runlevel 2 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+NSE: Starting runlevel 3 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+Nmap scan report for localhost (127.0.0.1)  
+Host is up, received localhost-response (0.000050s latency).  
+Other addresses for localhost (not scanned): ::1  
+Scanned at 2025-04-08 23:46:10 EEST for 2s  
+
+PORT   STATE  SERVICE REASON       VERSION  
+80/tcp closed http    reset ttl 64  
+Too many fingerprints match this host to give specific OS details  
+TCP/IP fingerprint:  
+SCAN(V=7.95%E=4%D=4/8%OT=%CT=80%CU=40126%PV=N%DS=0%DC=L%G=N%TM=67F58B14%P=x86_64-pc-linux-gnu)  
+SEQ(CI=Z%II=I)  
+T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)  
+T6(R=Y%DF=Y%T=40%W=0%S=A%A=Z%F=R%O=%RD=0%Q=)  
+T7(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)  
+U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)  
+IE(R=Y%DFI=N%T=40%CD=S)  
+  
+Network Distance: 0 hops  
+  
+NSE: Script Post-scanning.  
+NSE: Starting runlevel 1 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+NSE: Starting runlevel 2 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+NSE: Starting runlevel 3 (of 3) scan.  
+Initiating NSE at 23:46  
+Completed NSE at 23:46, 0.00s elapsed  
+Read data files from: /usr/share/nmap  
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
+Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds  
+           Raw packets sent: 13 (1.712KB) | Rcvd: 24 (2.700KB)  
+
+
  
  
  
