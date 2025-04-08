@@ -25,17 +25,17 @@ kuva: Caltagirone et al 2013 s. 9/61
  ┌──(maija㉿kaliMaija)-[~]  
 └─$ **sudo nmap -A localhost**                    
 [sudo] password for maija:   
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-08 23:37 EEST  // nmap-skannaus on aloitettu versiolla 7.95 tuohon kellonaikaan   
-Nmap scan report for localhost (127.0.0.1)    //skannataan tätä osoitetta eli localhostia osoitteessa 127.0.0.1  
-Host is up (0.000051s latency).  //skannattava hostkone on käynnissä. paketti kulkee edestakaisin skannaajan ja hostin koneiden välillä tuon ajan eli 0.00051s  
-Other addresses for localhost (not scanned): ::1   // localhostilla on toinen osoite, joka on ::1  
-All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.  // tämän kohteen 1000 yleisintä porttia ovat suljettuja.  
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-08 23:37 EEST  **// nmap-skannaus on aloitettu versiolla 7.95 tuohon kellonaikaan**
+Nmap scan report for localhost (127.0.0.1)    **//skannataan tätä osoitetta eli localhostia osoitteessa 127.0.0.1**  
+Host is up (0.000051s latency).  **//skannattava hostkone on käynnissä. paketti kulkee edestakaisin skannaajan ja hostin koneiden välillä tuon ajan eli 0.00051s**  
+Other addresses for localhost (not scanned): ::1   **// localhostilla on toinen osoite, joka on ::1**  
+All 1000 scanned ports on localhost (127.0.0.1) are in ignored states.  **// tämän kohteen 1000 yleisintä porttia ovat suljettuja.**  
 Not shown: 1000 closed tcp ports (reset)   
-Too many fingerprints match this host to give specific OS details  // OS järjestelmän yksityskohtia ei saatu selvitettyä 
-Network Distance: 0 hops   // Skannaus on tapahtunut paikallisessa verkossa eikä verkkosolmuja ole ollut matkalla.  
+Too many fingerprints match this host to give specific OS details  **// OS järjestelmän yksityskohtia ei saatu selvitettyä** 
+Network Distance: 0 hops   **// Skannaus on tapahtunut paikallisessa verkossa eikä verkkosolmuja ole ollut matkalla.**  
 
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
-Nmap done: 1 IP address (1 host up) scanned in 2.14 seconds  // Skannaukseen kulunut aika.  
+Nmap done: 1 IP address (1 host up) scanned in 2.14 seconds // **Skannaukseen kulunut aika.**  
 
  
  
