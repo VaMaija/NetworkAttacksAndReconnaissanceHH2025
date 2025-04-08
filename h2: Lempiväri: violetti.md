@@ -38,7 +38,7 @@ OS and Service detection performed. Please report any incorrect results at https
 Nmap done: 1 IP address (1 host up) scanned in 2.14 seconds // **Skannaukseen kulunut aika.**  
 
 ┌──(maija㉿kaliMaija)-[~]  
-└─$ sudo nmap -T4 -vv -A -p 80 localhost  //skannaa superuserina -T4 (Tehokkaasti) -vv (näyttää tiedot yksityiskohtaisesti skannauksen aikana) -A (aggressiivinen skannaus, tarkastaa mm verkon reitin -p (portti)  
+└─$ sudo nmap -T4 -vv -A -p 80 localhost  **//skannaa superuserina -T4 (Tehokkaasti) -vv (näyttää tiedot yksityiskohtaisesti skannauksen aikana) -A (aggressiivinen skannaus, tarkastaa mm verkon reitin -p (portti) 80**
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-04-08 23:46 EEST  
 NSE: Loaded 157 scripts for scanning.  **// NSE valmiita työkaluja ladattu 157 kpl**  
 NSE: Script Pre-scanning.  
