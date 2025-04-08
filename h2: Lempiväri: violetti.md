@@ -1,14 +1,17 @@
 # h2 Lempiväri violetti
 
 ## x) Selityksiä konsepteista:  
-Tuskien pyramidi
+**Tuskien pyramidi**
 idea: Tuskien pyramidi. Alaosassa on helpommin väärennettävät tai muutettavat arvot ja mitä korkeammalle mennään niin arvojen muuntaminen vaikeutuu.   
 ![image](https://github.com/user-attachments/assets/6fb90499-3c51-4289-9db3-dd7c8340706d)  
 
-Timanttimalli 
+
+  **Timanttimalli** 
 Timanttimallin avulla analysoidaan kybertapahtuma läpi neljän pääkohdan kautta eli Hyökkääjän, Kyvykkyyden, Infran ja Kohteen. Kuka teki, Miten teki, Missä teki ja Kenelle tehtiin?   
 ![timanttimalli](https://github.com/user-attachments/assets/e65266f5-4098-48d2-82d9-07f1bc8e6026)  
 kuva: Caltagirone et al 2013 s. 9/61
+
+
 
 
 
