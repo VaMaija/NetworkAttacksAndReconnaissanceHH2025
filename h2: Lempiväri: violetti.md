@@ -101,7 +101,7 @@ Completed NSE at 23:46, 0.00s elapsed
 Read data files from: /usr/share/nmap  ⭐ Tästä löytyy reitti scripteihin ⭐  
 OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .  
 Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds  
-           Raw packets sent: 13 (1.712KB) | Rcvd: 24 (2.700KB) **//Analysoinnissa on käytetty apuna chatGPT **  
+           Raw packets sent: 13 (1.712KB) | Rcvd: 24 (2.700KB)  **//Analysoinnissa on käytetty apuna chatGPT**  
 
 
 ## c) Skriptit  
