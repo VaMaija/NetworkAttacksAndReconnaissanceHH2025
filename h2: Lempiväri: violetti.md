@@ -112,7 +112,10 @@ Nmap done: 1 IP address (1 host up) scanned in 1.81 seconds
 <img width="368" alt="logitukset hukassa" src="https://github.com/user-attachments/assets/cd90173f-7397-4556-8810-00db33ebdd0e" />  
 
   En saanut logituksia näkymään tai sitten vaan etsin ihan väärästä paikasta.  
-## e)  
+## e)  Wire sharking  
+Kaappasim nmapituksen aikaista liikennettä, mutta en koska wireshark on uusi työkalu, niin en osannut etsiä nmap tai NMAP tai NSE -tietoja kaappauksesta.  
+
+## f)  
 
 
  
