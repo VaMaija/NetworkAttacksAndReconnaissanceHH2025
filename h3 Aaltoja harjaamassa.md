@@ -11,7 +11,18 @@ Tämän älkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorill
     Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and rtl_433
 
     
-## a) WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä. Radioliikenne tulee siepata niin, että radiovastaanotin on joko eri maassa tai vähintään 400 km paikasta, jossa teet tätä tehtävää. Käytä esimerkkinä julkista, suurelle yleisölle tarkoitettua viestiä, esimerkiksi yleisradiolähetystä. Kerro löytämäsi taajuus, aallonpituus ja modulaatio. Kuvaile askeleet ja ota ruutukaappaus. (Tehtävässä ei saa ilmaista sellaisen viestin sisältöä tai olemassaoloa, joka ei ole tarkoitettu julkiseksi. Voit sen sijaan kuvailla, miten sait julkisen radiolähetyksen kuulumaan kaiuttimistasi. Julkisten, esimerkiksi yleisradiolähetysten sisältöä saa tietysti kuvailla.)
+## a) WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä. 
+
+Kuuntelin webSDR -radiota kanavaa #es'hail-2 osoitteessa https://eshail.batc.org.uk/nb/  10489829.75 - .88 kHz filter 2.70 kHz 
+Kyseessä oli Qatarin radioamatöörien, saksalaisten radioamatöörien sekä satelliittiyrityksen Es'hailSatin yhteistyössä luoma kanava. Viestiliikennettä oli Isle of Wightin, Intian, Italian ja Saksan välillä. Lähinnä yhteyskokeiluja ympäri maailman.   
+
+Googletin useita websdr-radiokanavia, mutta en saanut kuuluviin juurikaan selkokielistäpuhetta ennen tätä.   
+
+![image](https://github.com/user-attachments/assets/3de8f71e-d3cd-489a-bced-5949c5a127b5)  
+
+Kyseiseltä verkkosivulta sai suoraan audio tallennusta ja tallenteen pystyi downloadata suoraan omalle koneelle. 
+Testasin hertzejä muuttamalla millä lukemalla saan vielä selkokielisestä puheesta selvää.  
+10489829.75 - .88 kHz 2.70kHz  
 
 ## b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."  
 
@@ -58,7 +69,10 @@ Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.co
 
 
 LÄHTEET: 
-Hubareck 2019 [Universal radio Hacker SDR Tutorial on 433MHz radio plugs](https://youtu.be/sbqMqb6FVMY?t=199) katsottu 13.4.2025   
+Hubareck 2019 [Universal radio Hacker SDR Tutorial on 433MHz radio plugs](https://youtu.be/sbqMqb6FVMY?t=199) katsottu 13.4.2025  
 Cornelius 2022 [Decode 433.92 MHz weather station data ](https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html) luettu 13.4.2025    
-RTL Asennus: Merbanan https://github.com/merbanan/rtl_433  luettu osittain 14.4.2025
+RTL Asennus: Merbanan https://github.com/merbanan/rtl_433  luettu osittain 14.4.2025  
+Apuna myös chatgpt  
+AMSAT DL [tausta](https://amsat-dl.org/en/eshail-2-amsat-phase-4-a/) luettu 14.4.2025  
+Qatar-OSCAR 100 Narrowband [WebSDR](https://eshail.batc.org.uk/nb/) kuunneltu 14.4.2025
 Karvinen 2025 [läksyt ja vinkit](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/) luettu 14.4.2025  
