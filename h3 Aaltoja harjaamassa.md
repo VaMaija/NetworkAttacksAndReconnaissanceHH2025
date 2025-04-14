@@ -106,9 +106,24 @@ käännetään prooven kaukosäätimellä pois päältä kytkin johon on yhdiste
 @0.242956s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)    
 @0.383568s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)    
 
+### d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s  
+
+Urh:n asentaminen: 
+$ sudo apt-get -y install pipx  
+$ pipx install urh  
+error: Fatal error from pip prevented installation. Full pip output in file:
+    /home/maija/.local/state/pipx/log/cmd_2025-04-14_17.34.26_pip_errors.log  
+    Logeista löytyi tieto: **You need Cython to build URH's extensions!**  
+    Pipx asennus vaati käyttäjän uloskirjautumisen kali.orgin ohjeiden mukaan. Käynnistin kalin uudelleen. 
+    ei auttanut. Palasin kali.orgin ohjeisiin. ja githubin [ongelmanratkaisijoiden](https://github.com/jopohl/urh/issues/1064) ohjeilla maaliin:  
+
+    
+    
+
+$ sudo apt-get install cython3
+$ pipx install urh --system-site-packages -packages
 
 
-### d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
 
 ### e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
@@ -130,4 +145,5 @@ Apuna myös chatgpt
 AMSAT DL [tausta](https://amsat-dl.org/en/eshail-2-amsat-phase-4-a/) luettu 14.4.2025  
 Qatar-OSCAR 100 Narrowband [WebSDR](https://eshail.batc.org.uk/nb/) kuunneltu 14.4.2025
 Karvinen 2025 [läksyt ja vinkit](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/) luettu 14.4.2025  
-
+kaliongelma [pipx ja urh](https://www.kali.org/docs/general-use/python3-external-packages/)  14.5.2025  
+urh-ongelma [cython](https://github.com/jopohl/urh/issues/1064) 14.5.2025  
