@@ -51,21 +51,21 @@ tehtävästä jäi epäselväksi, että pitikö ladata uusin sopiva versio vai s
 Latasin näytteen ja avasin sen seuraavalla komennolla  
 └─$ rtl_433 -r ~/Downloads/Converted_433.92M_2000k.cs8  
 
-time      : @0.083284s                                                                                                                    
-model     : KlikAanKlikUit-Switch                  id        : 8785315
-Unit      : 0            Group Call: No            Command   : Off           Dim       : No            Dim Value : 0
+time      : _@0.083284s_                                                                                                            
+model     : **KlikAanKlikUit-Switch**                  **id        : 8785315**
+Unit      : 0            Group Call: No            **Command   : Off**           Dim       : No            Dim Value : 0
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-time      : @0.083284s                                                                                                                    
-model     : Proove-Security                        House Code: 8785315
+time      : _@0.083284s_                                                                                                                   
+model     : **Proove-Security**                        House Code: 8785315
 Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
-time      : @0.083284s                                                                                                                    
-model     : Nexa-Security House Code: 8785315
-Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+time      : _@0.083284s_                                                                                                                   
+model     : **Nexa-Security House Code: 8785315**
+Channel   : 3            State     : OFF           **Unit      : 3**             Group     : 0
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 time      : @0.163125s                                                                                                                    
-model     : KlikAanKlikUit-Switch                  id        : 8785315
-Unit      : 0            Group Call: No            Command   : Off           Dim       : No            Dim Value : 0
+model     : **KlikAanKlikUit-Switch**                  id        : 8785315
+Unit      : 0            Group Call: No            **Command   : Off**           Dim       : No            Dim Value : 0
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 time      : @0.163125s                                                                                                                    
 model     : Proove-Security                        House Code: 8785315
@@ -100,7 +100,11 @@ model     : Nexa-Security House Code: 8785315
 Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
 
 
-
+analyysi: _@0.083284s_ Nexa Securityn asiakkaan (id:8785315) talossa jossa on kolme etäkäyttöistä (https://klikaanklikuit.nl/) katkaisinta
+käännetään prooven kaukosäätimellä pois päältä kytkin johon on yhdistetty kolme katkaisinta.    
+@0.163125s Nexa securityn ja Proove-securityn kanavalla 3 kuitataan, että kanavan state:off. 
+@0.242956s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)  
+@0.383568s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)  
 
 
 
