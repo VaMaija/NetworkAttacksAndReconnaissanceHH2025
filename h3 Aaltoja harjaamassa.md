@@ -47,7 +47,62 @@ tehtävästä jäi epäselväksi, että pitikö ladata uusin sopiva versio vai s
 ![image](https://github.com/user-attachments/assets/41587e99-c589-49ab-94c8-4c989a700dfa)
 
 
-### c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
+### c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.  
+Latasin näytteen ja avasin sen seuraavalla komennolla  
+└─$ rtl_433 -r ~/Downloads/Converted_433.92M_2000k.cs8  
+
+time      : @0.083284s                                                                                                                    
+model     : KlikAanKlikUit-Switch                  id        : 8785315
+Unit      : 0            Group Call: No            Command   : Off           Dim       : No            Dim Value : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.083284s                                                                                                                    
+model     : Proove-Security                        House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.083284s                                                                                                                    
+model     : Nexa-Security House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.163125s                                                                                                                    
+model     : KlikAanKlikUit-Switch                  id        : 8785315
+Unit      : 0            Group Call: No            Command   : Off           Dim       : No            Dim Value : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.163125s                                                                                                                    
+model     : Proove-Security                        House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.163125s                                                                                                                    
+model     : Nexa-Security House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.242956s                                                                                                                    
+model     : KlikAanKlikUit-Switch                  id        : 8785315
+Unit      : 0            Group Call: No            Command   : Off           Dim       : No            Dim Value : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.242956s                                                                                                                    
+model     : Proove-Security                        House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.242956s                                                                                                                    
+model     : Nexa-Security House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.383568s                                                                                                                    
+model     : KlikAanKlikUit-Switch                  id        : 8785315
+Unit      : 0            Group Call: No            Command   : Off           Dim       : No            Dim Value : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.383568s                                                                                                                    
+model     : Proove-Security                        House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+time      : @0.383568s                                                                                                                    
+model     : Nexa-Security House Code: 8785315
+Channel   : 3            State     : OFF           Unit      : 3             Group     : 0
+
+
+
+
+
 
 ### d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
 
