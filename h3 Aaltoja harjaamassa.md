@@ -120,7 +120,7 @@ error: Fatal error from pip prevented installation. Full pip output in file:
     Pipx asennus vaati käyttäjän uloskirjautumisen kali.orgin ohjeiden mukaan. Käynnistin kalin uudelleen. 
     ei auttanut. Palasin kali.orgin ohjeisiin. ja githubin [ongelmanratkaisijoiden](https://github.com/jopohl/urh/issues/1064) ohjeilla maaliin:  
 
-$ sudo apt-get install cython3 
+$ sudo apt-get install cython3   
 $ pipx install urh --system-site-packages -packages  
 
 *Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
