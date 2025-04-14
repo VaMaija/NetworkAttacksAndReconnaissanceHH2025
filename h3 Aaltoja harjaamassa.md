@@ -139,12 +139,9 @@ Ensimmäisessä paketissa on 134581, alusta pauseen mennessä noin 20000 bittiä
 
 Sain tällaisen tuloksen. 
 
+yhden raakabitin aika on 524µs eli 540 sekunnin miljoonasosaa. Aika vähän.  
 
-
-
-
-
-
+<img width="188" alt="bitti" src="https://github.com/user-attachments/assets/81cbfe04-87a8-4e94-a354-98e77bce3fa7" />
 
 
 
