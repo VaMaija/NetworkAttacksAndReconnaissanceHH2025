@@ -145,10 +145,7 @@ yhden raakabitin aika on 524µs eli 540 sekunnin miljoonasosaa. Aika vähän.
 
 
 
-### f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
 
-
-## g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
 ## h) Vapaaehtoinen: Sdr++. Kokeile sdr++ -sovellusta ja esittele sillä jokin "hei maailma" -tyyppinen esimerkki.
 
@@ -165,3 +162,4 @@ Qatar-OSCAR 100 Narrowband [WebSDR](https://eshail.batc.org.uk/nb/) kuunneltu 14
 Karvinen 2025 [läksyt ja vinkit](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/) luettu 14.4.2025  
 kaliongelma [pipx ja urh](https://www.kali.org/docs/general-use/python3-external-packages/)  14.5.2025  
 urh-ongelma [cython](https://github.com/jopohl/urh/issues/1064) 14.5.2025  
+mikrosekunti [wikisanakirja](https://www.google.com/search?client=firefox-b-d&q=mikrosekunti) tarkastettu 14.5.2025   
