@@ -17,8 +17,8 @@ Tämän älkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorill
 
 Käytössäni on windows.kone ja Linux kali, joten komennolla rtl löytyi komennolla:  
 
-┌──(maija㉿kaliMaija)-[~]
-└─$ sudo apt-get install rtl-433
+┌──(maija㉿kaliMaija)-[~]  
+└─$ sudo apt-get install rtl-433  
 
 
 
