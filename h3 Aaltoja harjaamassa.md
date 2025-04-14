@@ -28,9 +28,9 @@ Usage:
 
 Confia ei löytynyt etsinnöistä huolimatta...  Kysyin apua chatgpt:ltä. 
 
-┌──(maija㉿kaliMaija)-[/usr/local/etc]  //Asensi tarvittavat riippuvuudet  
+┌──(maija㉿kaliMaija)-[/usr/local/etc] 
 
-└─$ sudo apt install git cmake build-essential libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr   
+└─$ sudo apt install git cmake build-essential libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr   //Asensi tarvittavat riippuvuudet  
 
 
 
