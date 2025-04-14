@@ -126,3 +126,4 @@ Apuna myös chatgpt
 AMSAT DL [tausta](https://amsat-dl.org/en/eshail-2-amsat-phase-4-a/) luettu 14.4.2025  
 Qatar-OSCAR 100 Narrowband [WebSDR](https://eshail.batc.org.uk/nb/) kuunneltu 14.4.2025
 Karvinen 2025 [läksyt ja vinkit](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/) luettu 14.4.2025  
+
