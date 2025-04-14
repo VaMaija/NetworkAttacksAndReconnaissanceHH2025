@@ -5,7 +5,7 @@ Universal radio hacker -ohjeet, Ensin käytetään URH-työkalun spktrianalysaat
 
     Cornelius 2022: Decode 433.92 MHz weather station data  
 Käyttäjä osti yksinkertaisen sääaseman, joka osoitti lämpötilan ja kosteuden sisätilastata ja kolmesta langattomasta ulkopisteestä. Ulkosensori oli käyttäjällä rikki ka vaikka hän sai korvaavan tuotteen halusi hän kokeilla luoda itse vastaavan sensorin. Hän sai selville tästä laitteesta ainoastaan taajuuden 433.92MHz. Tekijä käytti työkalua rtl-433 ja se onnistui purkamaan laitteen. Työkalussa oli myös database, joka tunnistaa Nexus-laitteen lähdekoodin. 
-Tämän älkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorilla ja otti talleenteelta talteen taajuuden ja signaalin voimakkuuden. Hän avasi uuden prohejtin ja teki sille kansion, johon voi tallentaa dataa. Tämän jälkeen hän tallensi signaalia, joka on kaapatun taajuuden molemmilta puolilta noin 20-100 kHz leveydeltä. Näitä datasettejä puitää saada talteen ainakin kaksi purskahdusta. purskahdusten amplitudet pitäisi olla ainakin tuplat kohinasta. Raahaa tallenne Interpretation sivulle. Ensin pitää mitata kahden  onnistuneen lähetyksen väli. Tästä selviää kuinka usein laite lähettää tietoa.  Tässä tapauksessa noin 56 sekunnin välein. Sitten hän tallensi vain yhden lähetyksen oikea klikkaus: Create signal from selection. Hän havaitsi, että sensori lähettää 36 bittiä 12 kertaa, mutta tämä sensori lähetti bitit vain kymmenen kertaa. ASK pystyy havaitsemaan parametrit automaattisesti. Jos tekijä haluaa kopioda lähetystä, niin hänen pitää selvittää myös melko tarkka signalin taajuus. Tässä testissä hän otti taajuuden 29kHz välein ja URH sekoitti vastaanotetun signaalin taajuuden sopivaksi. Kantoaalto (carrier) on päällä 500µs ja sen jälkeen pois päältä 1000µs, 2000µs tai 4000µs ennen seuraavaa lähetystä. Yhtä tällaista pulssia kutsutaan PDM:ksi (Pulse distance modulation). Kantoaallon off-alueet ovat bittejä eli 1ms tai 2 ms. Tekijä oletti, että lyhyt (1 millisekunti) off on 0-bit ja pitkä tauko (2ms) on 1-bit. Tämä riippuu kuitenkin ohjelmoinnista. Kantoaallon signaalista löytyneistä numeroista 500, 1000, 2000 ja 4000 lasketaan suurin yhteinen nimittäjä eli 500. Tämä on demoduloinnin edellyttämä näytteiden numero. URH:n analyysimoodissa tässä vaiheessa pitäisi näkyä sama määrä lähetyspurskeita eli 10 (piti olla 12) eli tätä kautta pääsee koodia editoimaan **Edit-Decoding** Käyttäjä käytti morsekoodin analytiikkaa rakentamaan lyhyistä ja pitkistä koodeista (bitit) uutta signaalia.   
+Tämän jälkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorilla ja otti talleenteelta talteen taajuuden ja signaalin voimakkuuden. Hän avasi uuden prohejtin ja teki sille kansion, johon voi tallentaa dataa. Tämän jälkeen hän tallensi signaalia, joka on kaapatun taajuuden molemmilta puolilta noin 20-100 kHz leveydeltä. Näitä datasettejä puitää saada talteen ainakin kaksi purskahdusta. purskahdusten amplitudet pitäisi olla ainakin tuplat kohinasta. Raahaa tallenne Interpretation sivulle. Ensin pitää mitata kahden  onnistuneen lähetyksen väli. Tästä selviää kuinka usein laite lähettää tietoa.  Tässä tapauksessa noin 56 sekunnin välein. Sitten hän tallensi vain yhden lähetyksen oikea klikkaus: Create signal from selection. Hän havaitsi, että sensori lähettää 36 bittiä 12 kertaa, mutta tämä sensori lähetti bitit vain kymmenen kertaa. ASK pystyy havaitsemaan parametrit automaattisesti. Jos tekijä haluaa kopioda lähetystä, niin hänen pitää selvittää myös melko tarkka signalin taajuus. Tässä testissä hän otti taajuuden 29kHz välein ja URH sekoitti vastaanotetun signaalin taajuuden sopivaksi. Kantoaalto (carrier) on päällä 500µs ja sen jälkeen pois päältä 1000µs, 2000µs tai 4000µs ennen seuraavaa lähetystä. Yhtä tällaista pulssia kutsutaan PDM:ksi (Pulse distance modulation). Kantoaallon off-alueet ovat bittejä eli 1ms tai 2 ms. Tekijä oletti, että lyhyt (1 millisekunti) off on 0-bit ja pitkä tauko (2ms) on 1-bit. Tämä riippuu kuitenkin ohjelmoinnista. Kantoaallon signaalista löytyneistä numeroista 500, 1000, 2000 ja 4000 lasketaan suurin yhteinen nimittäjä eli 500. Tämä on demoduloinnin edellyttämä näytteiden numero. URH:n analyysimoodissa tässä vaiheessa pitäisi näkyä sama määrä lähetyspurskeita eli 10 (piti olla 12) eli tätä kautta pääsee koodia editoimaan **Edit-Decoding** Käyttäjä käytti morsekoodin analytiikkaa rakentamaan lyhyistä ja pitkistä koodeista (bitit) uutta signaalia.   
 
 
     Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and rtl_433
@@ -108,7 +108,10 @@ käännetään prooven kaukosäätimellä pois päältä kytkin johon on yhdiste
 
 ### d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s  
 
-Urh:n asentaminen: 
+
+
+### e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
+Urh:n asentaminen:  
 $ sudo apt-get -y install pipx  
 $ pipx install urh  
 error: Fatal error from pip prevented installation. Full pip output in file:
@@ -117,18 +120,21 @@ error: Fatal error from pip prevented installation. Full pip output in file:
     Pipx asennus vaati käyttäjän uloskirjautumisen kali.orgin ohjeiden mukaan. Käynnistin kalin uudelleen. 
     ei auttanut. Palasin kali.orgin ohjeisiin. ja githubin [ongelmanratkaisijoiden](https://github.com/jopohl/urh/issues/1064) ohjeilla maaliin:  
 
-    
-    
+$ sudo apt-get install cython3 
+$ pipx install urh --system-site-packages -packages  
 
-$ sudo apt-get install cython3
-$ pipx install urh --system-site-packages -packages
+*Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
+
+Intepretation-välilehti: Kolme viiden paketin näytettä. Yhdessä paketissa on  
 
 
 
-### e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
-Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
+
+
 
 ### f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
+Intepretation-välilehti: 5,49 sekunnin näyte sisältää kolme viiden paketin pursketat. Silmämääräisesti viimeisen purskeen paketit kaksi ja kolme ovat toisiaan lähempänä. 
+Yhdessä paketissa on 
 
 ## g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
