@@ -101,14 +101,14 @@ Channel   : 3            State     : OFF           Unit      : 3             Gro
 
 
 analyysi: _@0.083284s_ Nexa Securityn asiakkaan (id:8785315) talossa jossa on kolme etäkäyttöistä (https://klikaanklikuit.nl/) katkaisinta
-käännetään prooven kaukosäätimellä pois päältä kytkin johon on yhdistetty kolme katkaisinta.    
+käännetään prooven kaukosäätimellä pois päältä kytkin johon on yhdistetty kolme katkaisinta (sähköpistoke?).      
 @0.163125s Nexa securityn ja Proove-securityn kanavalla 3 kuitataan, että kanavan state:off.   
 @0.242956s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)    
 @0.383568s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)    
 
 ### d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s  
 
-
+En saanut complex16s -muotoa vaihdettua cs8 -muotoon. 
 
 ### e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 Urh:n asentaminen:  
@@ -143,12 +143,7 @@ yhden raakabitin aika on 524µs eli 540 sekunnin miljoonasosaa. Aika vähän.
 
 <img width="188" alt="bitti" src="https://github.com/user-attachments/assets/81cbfe04-87a8-4e94-a354-98e77bce3fa7" />
 
-
-
-
-
 ## h) Vapaaehtoinen: Sdr++. Kokeile sdr++ -sovellusta ja esittele sillä jokin "hei maailma" -tyyppinen esimerkki.
-
 ## i) Vapaaehtoinen, vaikeahko: GNU Radio. Asenne GNU Radio ja tee sillä yksinkertainen "Hei maailma".
 
 
