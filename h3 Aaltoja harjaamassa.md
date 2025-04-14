@@ -125,7 +125,15 @@ $ pipx install urh --system-site-packages -packages
 
 *Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
 
-Intepretation-välilehti: Kolme viiden paketin näytettä. Ensimmäisessä paketissa on 134581, alusta pauseen mennessä noin 20000 bittiä, paussi on noin 5000 bittiä. Eli samples/symbol-kohtaan vaihdetaan 500 tilalle 10000 bittiä  ja muutetaan bitit Hexamuotoon.  
+### f) Yleiskuva
+
+Intepretation-välilehti: 5,49 sekunnin näyte sisältää kolme viiden paketin settiä. Silmämääräisesti viimeisen setin paketit kaksi ja kolme ovat toisiaan lähempänä.  
+
+Yksi paketti (packet) kestää 135.8ms.   
+Ensimmäisessä paketissa on 134581, alusta pauseen mennessä noin 20000 bittiä, paussi on noin 5000 bittiä. Eli samples/symbol-kohtaan vaihdetaan 500 tilalle 10000 bittiä (suurin ynteinen nimittäjä) ja muutetaan bitit Hexamuotoon. yritin myös sampleksi 5000, mutta se ei antanut järkevää tulosta.  
+
+### g) Bittistä
+
 
 ![image](https://github.com/user-attachments/assets/83c98a0b-9442-4297-97da-59d6e109ba3f)  
 
@@ -141,8 +149,7 @@ Sain tällaisen tuloksen.
 
 
 ### f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
-Intepretation-välilehti: 5,49 sekunnin näyte sisältää kolme viiden paketin pursketat. Silmämääräisesti viimeisen purskeen paketit kaksi ja kolme ovat toisiaan lähempänä. 
-Yksi paketti (packet) kestää 135.8ms
+
 
 ## g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
