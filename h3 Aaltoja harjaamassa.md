@@ -15,7 +15,7 @@ Tämän älkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorill
 
 ## b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."  
 
-Käytössäni on windows.kone ja Linux kali, joten rtl löytyi komennolla:  
+Käytössäni on windows.kone ja Linux kali, joten rtl_433 löytyi komennolla sudo apt-get install rtl_433
 
 ┌──(maija㉿kaliMaija)-[~]  
 └─$ sudo apt-get install rtl-433  
