@@ -1,4 +1,4 @@
-## x) Lue ja tiivistä. 
+### x) Lue ja tiivistä. 
     Hubacek 2019: Universal Radio Hacker SDR Tutorial on 433 MHz radio plugs (Video, alkaen 3:19 ja päättyen 7:40. Yhteensä noin 4 min.)   
     
 Universal radio hacker -ohjeet, Ensin käytetään URH-työkalun spktrianalysaattoria määrittelemään testattavan kaukosäätimen taajuus. Alasvetovalikosta Device : RTL-SDR ja taajuus arvioidaan lähelle 433 MHz ja analysaattori käynnistetään samalla painaen kaukosäätimen nappia. Analysaattori osoittaa taajuuden lähellä 433. Tästä ei pidä ottaa suoraan korkeinta kohtaa van hieman huipun vierestä. Analysaattori voidaan tämän jälkeen sulkea. Sen jälkeen äännitetään lähetystä File > Rcord Signal  Painetaan testattavasta laitteesta nappia signaali kerätään ja se tallennetaan. Tallennettu data avautuu suoraan pääsovelluksessa ja Molulaatioksi valitaan ASK (amplitude shift keying) ja sen jälkeen pyritään selvittämään parametrit. Bitlenght pitää tarkastaa. Ensimmäisen packetin osalta voidaan tarkastaa manuaalisesti. Demodulated versio, kynnystä voi manuaalisesti siirtää. Signaalin tilan voi muuttaa tässä vaiheeksi hexaksi alasvetovalikosta. Yhden hexa-paketin voi tässä vaiheessa kopioida.    
@@ -11,7 +11,7 @@ Tämän älkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorill
     Vapaaehtoinen, vaikeahko: Lohner 2019: Decoding ASK/OOK_PPM Signals with URH and rtl_433
 
     
-## a) WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä. 
+### a) WebSDR. Etäkäytä WebSDR-ohjelmaradiota, joka on kaukana sinusta ja kuuntele radioliikennettä. 
 
 Kuuntelin webSDR -radiota kanavaa #es'hail-2 osoitteessa https://eshail.batc.org.uk/nb/  10489829.75 - .88 kHz filter 2.70 kHz 
 Kyseessä oli Qatarin radioamatöörien, saksalaisten radioamatöörien sekä satelliittiyrityksen Es'hailSatin yhteistyössä luoma kanava. Viestiliikennettä oli Isle of Wightin, Intian, Italian ja Saksan välillä. Lähinnä yhteyskokeiluja ympäri maailman.   
@@ -24,7 +24,7 @@ Kyseiseltä verkkosivulta sai suoraan audio tallennusta ja tallenteen pystyi dow
 Testasin hertzejä muuttamalla millä lukemalla saan vielä selkokielisestä puheesta selvää.  
 10489829.75 - .88 kHz 2.70kHz  
 
-## b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."  
+### b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."  
 
 Käytössäni on windows.kone ja Linux kali, joten rtl_433 löytyi komennolla sudo apt-get install rtl_433
 
@@ -47,19 +47,14 @@ tehtävästä jäi epäselväksi, että pitikö ladata uusin sopiva versio vai s
 ![image](https://github.com/user-attachments/assets/41587e99-c589-49ab-94c8-4c989a700dfa)
 
 
+### c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
 
+### d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
 
-
-
-
-## c) Automaattinen analyysi. Mitä tässä näytteessä tapahtuu? Mitä tunnisteita (id yms) löydät? Converted_433.92M_2000k.cs8. Analysoi näyte 'rtl_433' ohjelmalla.
-
-## d) Too compex 16? Olet nauhoittanut näytteen 'urh' -ohjelmalla .complex16s-muodossa. Muunna näyte rtl_433-yhteensopivaan muotoon ja analysoi se. Näyte Recorded-HackRF-20250411_183354-433_92MHz-2MSps-2MHz.complex16s
-
-## e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
+### e) Ultimate. Asenna URH, the Ultimate Radio Hacker.
 Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.complex16s. Siinä Nexan pistorasian kaukosäätimen valon 1 ON -nappia on painettu kolmesti. Käytä Ultimate Radio Hacker 'urh' -ohjelmaa.
 
-## f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
+### f) Yleiskuva. Kuvaile näytettä yleisesti: kuinka pitkä, millä taajuudella, milloin nauhoitettu? Miltä näyte silmämääräisesti näyttää?
 
 ## g) Bittistä. Demoduloi signaali niin, että saat raakabittejä. Mikä on oikea modulaatio? Miten pitkä yksi raakabitti on ajassa? Kuvaile tätä aikaa vertaamalla sitä johonkin. (Monissa singaaleissa on line encoding, eli lopullisia bittejä varten näitä "raakabittejä" on vielä käsiteltävä)
 
