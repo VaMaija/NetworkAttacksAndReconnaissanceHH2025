@@ -15,10 +15,25 @@ Tämän älkeen tekijä tallensi sääaseman koodia URH:n sprektianalysaattorill
 
 ## b) rtl_433. Asenna rtl_433 automaattista analyysia varten. Kokeile, että voit ajaa sitä. './rtl_433' vastaa "rtl_433 version 25.02 branch..."  
 
-Käytössäni on windows.kone ja Linux kali, joten komennolla rtl löytyi komennolla:  
+Käytössäni on windows.kone ja Linux kali, joten rtl löytyi komennolla:  
 
 ┌──(maija㉿kaliMaija)-[~]  
 └─$ sudo apt-get install rtl-433  
+ohjelma ei käynnistynyt Karvisen vinkillä ./rtl_433   
+┌──(maija㉿kaliMaija)-[~]  
+└─$ rtl_433 -h  
+
+Usage:  
+  A "rtl_433.conf" file is searched in "./", XDG_CONFIG_HOME e.g. **"$HOME/.config/rtl_433/"**,  cd  /us
+
+Confia ei löytynyt etsinnöistä huolimatta...  Kysyin apua chatgpt:ltä. 
+
+┌──(maija㉿kaliMaija)-[/usr/local/etc]  //Asensi tarvittavat riippuvuudet  
+
+└─$ sudo apt install git cmake build-essential libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr   
+
+
+
 
 
 
@@ -36,3 +51,10 @@ Tarkastele näytettä 1-on-on-on-HackRF-20250412_113805-433_912MHz-2MSps-2MHz.co
 ## h) Vapaaehtoinen: Sdr++. Kokeile sdr++ -sovellusta ja esittele sillä jokin "hei maailma" -tyyppinen esimerkki.
 
 ## i) Vapaaehtoinen, vaikeahko: GNU Radio. Asenne GNU Radio ja tee sillä yksinkertainen "Hei maailma".
+
+
+LÄHTEET: 
+Hubareck 2019 [Universal radio Hacker SDR Tutorial on 433MHz radio plugs](https://youtu.be/sbqMqb6FVMY?t=199) katsottu 13.4.2025   
+Cornelius 2022 [Decode 433.92 MHz weather station data ](https://www.onetransistor.eu/2022/01/decode-433mhz-ask-signal.html) luettu 13.4.2025    
+RTL Asennus: Merbanan https://github.com/merbanan/rtl_433  luettu osittain 14.4.2025
+Karvinen 2025 [läksyt ja vinkit](https://terokarvinen.com/verkkoon-tunkeutuminen-ja-tiedustelu/) luettu 14.4.2025  
