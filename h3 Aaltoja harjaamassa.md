@@ -102,9 +102,9 @@ Channel   : 3            State     : OFF           Unit      : 3             Gro
 
 analyysi: _@0.083284s_ Nexa Securityn asiakkaan (id:8785315) talossa jossa on kolme etäkäyttöistä (https://klikaanklikuit.nl/) katkaisinta
 käännetään prooven kaukosäätimellä pois päältä kytkin johon on yhdistetty kolme katkaisinta.    
-@0.163125s Nexa securityn ja Proove-securityn kanavalla 3 kuitataan, että kanavan state:off. 
-@0.242956s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)  
-@0.383568s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)  
+@0.163125s Nexa securityn ja Proove-securityn kanavalla 3 kuitataan, että kanavan state:off.   
+@0.242956s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)    
+@0.383568s Proove-securityn ja Nexa-Securityn verkossa KlikAanKlikUit-Switch käsketään hiljaiseksi (off)    
 
 
 
