@@ -20,17 +20,21 @@ Käytössäni on windows.kone ja Linux kali, joten rtl löytyi komennolla:
 ┌──(maija㉿kaliMaija)-[~]  
 └─$ sudo apt-get install rtl-433  
 ohjelma ei käynnistynyt Karvisen vinkillä ./rtl_433   
-┌──(maija㉿kaliMaija)-[~]  
+
 └─$ rtl_433 -h  
 
 Usage:  
   A "rtl_433.conf" file is searched in "./", XDG_CONFIG_HOME e.g. **"$HOME/.config/rtl_433/"**,  cd  /us
 
-Confia ei löytynyt etsinnöistä huolimatta...  Kysyin apua chatgpt:ltä. 
+Ohjelmaa ei löytynyt etsinnöistä huolimatta...  Kysyin apua chatgpt:ltä. 
+Olihan se ollut hienoa, että Kalissa asennus olisi mennyt muutamalla komennolla.  
 
-┌──(maija㉿kaliMaija)-[/usr/local/etc] 
+$ sudo apt install git cmake build-essential libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr   //Asensi tarvittavat riippuvuudet  
+ei auttanut. Annoin ohjelmalle chmodilla 775 -oikeudet. 
+tehtävästä jäi epäselväksi, että pitikö ladata uusin sopiva versio vai soapy. Sain Soapyn lopulta toimimaan lataamalla sen suoraan Karvisen linkistä ja antamalla sille 775 -oikeudet. Kopioin ohjelman /usr/local/bin/ osoitteeseen.  
 
-└─$ sudo apt install git cmake build-essential libtool libusb-1.0-0-dev librtlsdr-dev rtl-sdr   //Asensi tarvittavat riippuvuudet  
+![image](https://github.com/user-attachments/assets/41587e99-c589-49ab-94c8-4c989a700dfa)
+
 
 
 
