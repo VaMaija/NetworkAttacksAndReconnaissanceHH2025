@@ -2,7 +2,12 @@ h5 kotitehtävät
 
 Sain mininetin käyttöön lataamalla kurssin moodelsta Lari Iso-Anttilan [linkin](https://hhmoodle.haaga-helia.fi/mod/url/view.php?id=3246688).  
 Lisäksi latasin VMwaren Workstationin Windowsille. Tähän vaadittiin sisäänkirjautuminen Broadcomin VMware-verkkosvulle(https://www.vmware.com/products/desktop-hypervisor/workstation-and-fusion).  
-mininetin tar-paketin sai avattua 7-zip-ohjelmalla.  
+mininetin tar-paketin sai avattua 7-zip-ohjelmalla. 
+
+En saanut mininettiä toimimaan, joten kokeilin toista konetta, jossa avasin sen oracle virtual Boxiin. Samaan mihin on alussa asennettu Kali. 
+Avasin 
+
+
 
 
 
