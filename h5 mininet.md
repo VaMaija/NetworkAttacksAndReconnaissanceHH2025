@@ -6,8 +6,27 @@ mininetin tar-paketin sai avattua 7-zip-ohjelmalla.
 
 En saanut mininettiä toimimaan, joten kokeilin toista konetta, jossa avasin sen oracle virtual Boxiin. Samaan mihin on alussa asennettu Kali. Ei pelittänyt.  
 
-$sudo loadkeys fi  //Vaihtaa näppäimistön suomeksi  
-$
+$ sudo loadkeys fi  //Vaihtaa näppäimistön suomeksi  
+$ sudo apt-get update  
+$ ryu-manager ryu.app.simple_switch_13   // Chat gpt kertoi,että on normaalia että Ryu-managerin toimiessa mitään ei tapahdu komentokehotteessa.   
+$ sudo mn --topo single,3 --mac --switch ovsk --controller remote //ei toiminut, mininet ei käynnistynyt.      
+jäi pyörittämään tyhjää.  
+Kävin chatGPT:n avulla läpi erri mininetin osia neljä tuntia, mutta en saanut verkkoa pystyyn. 
+
+En saanut VMtoolseja käyttöön CLI:stä enkä GUI:sta. 
+Olisi ollut hyvä päästä kokeilemaan itse asiaa. 
+
+menin siitä mistä aita oli matalin ja käynnistin mn:  
+$ sudo mn  
+$ pingall  
+  ![sudo mn](https://github.com/user-attachments/assets/266b104b-3389-441a-b001-1d22b48608a1)  
+
+$ xterm h1 
+    >cannot connect to display
+
+    xtermiä en saanut toimimaan. 
+$ sudo apt install open-vm-tool //ei löytänyt toimivaa pakettia.  
+
 
 Palasin alkuperäiseenkoneeseen ja latasin VMWare Tools 11.3.5 [Broadcomin sivulta](https://support.broadcom.com/group/ecx/productfiles?subFamily=VMware%20Tools&displayGroup=VMware%20Tools%2011.x&release=11.3.5&os=&servicePk=203551&language=EN&freeDownloads=true)
 Avasin mininetin seuraavilla komennoilla: 
