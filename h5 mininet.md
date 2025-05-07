@@ -62,7 +62,19 @@ Luulin , että tämä piti ladata mininettiin ja koska en saanut ymmärtääksen
 
 Sitten päätin kokeilla asennusta Kaliin.  
 
-Menin githubiin ja hieman seikkiltuani suoraan asennusohjeisiin:
+Menin githubiin ja hieman seikkiltuani suoraan asennusohjeisiin.  
+sieltä kaivoin [qvickstart-ohjeet](https://help.evilginx.com/pro/quickstart)   
+Silmäilin ohjeita läpi ja loin kali Linuxiin oman kanison ohjelmalle $ mkdir Evilgnix  
+Latasin evilgnixin uusimman version [täältä](https://github.com/kgretzky/evilginx2/releases/tag/v3.3.0)  ja siirsin sen Downloads-kansiosta luomaani kansioon:   
+cp evilginx-v3.3.0-linux-64bit.zip ~/Evilgnix/  
+siellä avasin sen unzip komennolla ja annoin sille dhmodilla 700 oikeudet.   
+$ chmod 700 ./evilginx  
+evilgnix avautuu komennolla ./evilgnix 
+
+en tehnyt tehtävään liittyvää kokeilua, koska en todellisuudessa tiedä mitä kyseinen työkalua tekee.  
+
+
+
 
 
 
