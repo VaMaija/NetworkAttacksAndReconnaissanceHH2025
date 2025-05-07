@@ -29,7 +29,7 @@ $ sudo apt install open-vm-tool //ei löytänyt toimivaa pakettia.
 ##1.5.2025
 Uusin voimin mininetin kimppuun.  
 En tiedä mitä on tapahtunut useamman päivän tauon aikana, mutta mininet käynnistyi:   
-![image](https://github.com/user-attachments/assets/704dbd60-125a-4f85-88b6-0f28ffa63206)  
+![image](https://github.com/user-attachments/assets/704dbd60-125a-4f85-88b6-0f28ffa63206)    
  
 
 
@@ -41,6 +41,8 @@ Avasin mininetin seuraavilla komennoilla:
 $ ryu-manager ryu.app.simple_switch_13
 $ sudo mn --topo single,3 --mac --switch ovsk --controller remote
 
+
+En onnistunut tekemään mnininetillä annettuja harjoituksia. Oloni on pirun tyhmä...  
 
 
 
