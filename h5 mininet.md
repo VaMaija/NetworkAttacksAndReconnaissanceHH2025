@@ -56,4 +56,16 @@ Asensitko työkalun, jos asensit niin kirjoita miten sen teit.
 Mitä teit työkalun kanssa?
 Onnistuitko huijaamaan liikennettä
 b) Sinulla on käytössäsi mininet ympäristö. Luo ympäristö, jossa voit tehdä TCP SYN-Flood hyökkäyksen.
-Kirjoita miten loit mininet ympäristön ja miten toteutit hyökkäyksen.
+Kirjoita miten loit mininet ympäristön ja miten toteutit hyökkäyksen.   
+
+Luulin , että tämä piti ladata mininettiin ja koska en saanut ymmärtääkseni mininettiä toimimaan niin jätin tehtävän väliin.  
+
+Sitten päätin kokeilla asennusta Kaliin.  
+
+Menin githubiin ja hieman seikkiltuani suoraan asennusohjeisiin:
+
+
+
+
+
+
